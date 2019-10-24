@@ -9,4 +9,4 @@ GAME RULES:
 
 .
 .
-A fun game that you'll enjoy!
+A fun game that you'll enjoy and love!
