@@ -13,12 +13,6 @@ var scores, roundScore, activePlayer, gamePlaying;
 
 init();
 
-/*
-function btn() {
-    // Do Something here
-}
-btn();
-*/
 // Callback function: The function that we pass into another 
 //function, as an argument(we don't call this function) and here 
 //it is called by EventListener
@@ -146,10 +140,10 @@ function init() {
 
 // STATE VARIABLE: Simply tells us the condition of a system. ..(here it is gamePlaying variable)
 
-//document.querySelector('#score-0').textContent = dice;
-//document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em>';
-//var x = document.querySelector('#score-0').textContent;
-//console.log(x);
+document.querySelector('#score-0').textContent = dice;
+document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em>';
+var x = document.querySelector('#score-0').textContent;
+console.log(x);
 
 
 
